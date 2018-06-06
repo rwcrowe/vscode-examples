@@ -1,0 +1,19 @@
+# REST Client v0.18.4
+# https://github.com/Huachao/vscode-restclient
+
+GET http://api.github.com/
+user-agent: vscode
+content-type: application/json
+Authorization: Basic <base64 hash>
+###
+
+GET http://api.github.com/user/
+user-agent: vscode
+Authorization: Basic <base64 hash>
+###
+
+GET http://api.github.com/users/rwcrowe/repos
+user-agent: vscode
+content-type: application/json
+Authorization: Basic <base64 hash>
+###
